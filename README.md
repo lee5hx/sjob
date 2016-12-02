@@ -1,11 +1,6 @@
 #sjob
 Quartz Operation Command Line
 
-
-# sjob
-
-Quartz Operation Command Line
-
 ## 命令行
 
 sjob -h：
@@ -20,5 +15,5 @@ usage: sjob [options] [arg]
  -r,--resume <arg>    Resume job
  -ro,--runOne <arg>   Run once job
  -v,--version         Show the SJob version information
- 
+
 ```
