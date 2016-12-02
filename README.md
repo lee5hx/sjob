@@ -3,7 +3,7 @@ Quartz Operation Command Line
 
 ##Command Line
 
-sjob -h：
+sjob -h
 
 ```
 usage: sjob [options] [arg]
