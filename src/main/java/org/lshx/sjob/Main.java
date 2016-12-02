@@ -47,8 +47,12 @@ public class Main {
             }
             if (line.hasOption("h")) {
                 HelpFormatter formatter = new HelpFormatter();
-                formatter.printHelp("sjob [options] [arg] ", options);
+                formatter.printHelp("sjob [options] [<arg>=job_hash] ", null,options,null,false);
             }
+
+
+
+
             if (line.hasOption("v")) {
                 System.out.println("SJob v1.1");
             }
