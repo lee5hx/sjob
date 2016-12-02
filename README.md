@@ -1,7 +1,7 @@
 #sjob
 Quartz Operation Command Line
 
-## 命令行
+##Command Line
 
 sjob -h：
 
