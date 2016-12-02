@@ -16,5 +16,3 @@ redis.properties
 database.properties
 *.log
 node_modules/
-
-./src/main/resources/logback.xml
