@@ -3,8 +3,6 @@ Quartz Operation Command Line
 
 ##Command Line
 
-sjob -h
-
 ```
 usage: sjob [options] [arg]
  -a                   List Quartz ALL Jobs
