@@ -1,7 +1,36 @@
-# sjob
-Quartz Operation Command Line
 
-## Command Line
+
+# sjob
+
+Quartz Operation Command Line.
+
+## Features
+
+* Server supports a network connection
+* `Gradle` and `Maven` project support
+* Run build tool task
+* Compile your project
+* Analyze java source (hooks into build)
+* Code completion
+* Optimize import
+* Jump declaration
+* Run junit test (include test runner)
+
+Meghanada-Server support only emacs client (meghanada-mode)
+
+## Building
+
+### Requirement
+
+* JDK 7
+
+### Build jar
+
+```
+./gradlew clean shadowJar
+```
+
+## Usage sjob
 
 ```
 sjob [options] [<arg>=job_hash]
@@ -22,3 +51,5 @@ xxxxxxxxxx  xxxxxxJob        CYCLE_JOB_GROUP                         0 * * * * ?
 xxxxxxxxxx  xxxxxxJob        DAILY_JOB_GROUP                         0 0 8 * * ?                NORMAL   2016-12-03 08:00:00     2016-12-02 08:00:00     每天的上午8点,xxxxxjob操作
 xxxxxxxxxx  xxxxxxxJob       CYCLE_SERIOUS_CHECK_DATA_JOB_GROUP      0 0/60 * * * ?             NORMAL   2016-12-02 15:00:00     2016-12-02 14:00:00     每1分钟,检查xxx功能的数据
 ```
+
+
