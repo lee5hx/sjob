@@ -6,23 +6,13 @@ Quartz Operation Command Line.
 
 ## Features
 
-* Server supports a network connection
-* `Gradle` and `Maven` project support
-* Run build tool task
-* Compile your project
-* Analyze java source (hooks into build)
-* Code completion
-* Optimize import
-* Jump declaration
-* Run junit test (include test runner)
-
-Meghanada-Server support only emacs client (meghanada-mode)
+* 
 
 ## Building
 
 ### Requirement
 
-* JDK 7
+* JDK 8
 
 ### Build jar
 
