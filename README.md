@@ -17,7 +17,7 @@ Quartz Operation Command Line.
 ### Build jar
 
 ```
-./gradlew clean shadowJar
+./gradle shadowjar
 ```
 
 ## Usage sjob
